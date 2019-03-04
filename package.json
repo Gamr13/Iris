@@ -1,0 +1,43 @@
+{
+  "name": "guidebot",
+  "version": "5.0.0",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prepublish": "node util/setup.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot-class.git"
+  },
+  "author": "Evelyne Lachance <eslachance@gmail.com> (http://evie.codes)",
+  "contributors": [
+    "York (http://anidiots.guide)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot-class/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot-class#readme",
+  "dependencies": {
+    "better-sqlite-pool": "github:eslachance/better-sqlite-pool",
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.3.2",
+    "fs": "0.0.1-security",
+    "google-images": "^2.1.0",
+    "klaw": "^2.1.1",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0",
+    "snekfetch": "^4.0.4",
+    "sylphy": "^0.4.5",
+    "urban": "^0.3.2"
+  }
+}
