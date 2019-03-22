@@ -16,11 +16,11 @@ e621 commands are not working currently.
 
 Future features?
 In the future I plan on adding the following features:
-        - Allow for multiple pings for the fun commands (i.e hug two people rather than one at a time)
-        - Create an NSFW enabled Google search feature
-        - Add more fun games to play
-        - Allow for mod log configuration
-        - Allow for non-pings in fun commands (i.e !hug toby rather than !hug @toby)
-        - Add more fun commands
-        - NSFW commands (to allow you to have intercourse with another member)
+   - Allow for multiple pings for the fun commands (i.e hug two people rather than one at a time)
+   - Create an NSFW enabled Google search feature
+   - Add more fun games to play
+   - Allow for mod log configuration
+   - Allow for non-pings in fun commands (i.e !hug toby rather than !hug @toby)
+   - Add more fun commands
+   - NSFW commands (to allow you to have intercourse with another member)
         
