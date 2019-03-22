@@ -23,4 +23,5 @@ In the future I plan on adding the following features:
    - Allow for non-pings in fun commands (i.e !hug toby rather than !hug @toby)
    - Add more fun commands
    - NSFW commands (to allow you to have intercourse with another member)
+   - Allow for the bot to send local images rather than having to use imgur links
         
