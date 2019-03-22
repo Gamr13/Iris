@@ -12,7 +12,7 @@ How to set Iris up:
 
 
 What's not working?
-e621 commands are not working currently.
+    - e621 commands are not working currently.
 
 Future features?
 In the future I plan on adding the following features:
