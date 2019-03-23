@@ -10,10 +10,6 @@ How to set Iris up:
 5) Place your bot token on line 12 in the quotation marks.
 6) Open CMD or Terminal in the bots folder and run ->    node index
 
-
-What's not working?
-    - e621 commands are not working currently.
-
 Future features?
 In the future I plan on adding the following features:
    - Allow for multiple pings for the fun commands (i.e hug two people rather than one at a time)
