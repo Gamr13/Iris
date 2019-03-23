@@ -80,6 +80,9 @@ async function E621Lewd(Args,Mess){
           }
     );
 }
+	   if (message.channel.nsfw === false) {
+			return message.reply("⚠ Not an NSFW channel :c");
+		}
     E621Lewd(args,message); 
  
      } catch (e) {
