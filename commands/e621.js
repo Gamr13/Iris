@@ -46,6 +46,10 @@ function EmbedSend(Str,Url,Mess){
       name: "Iris",
       icon_url: "https://i.imgur.com/rRVy516.jpg"
     },
+	footer: {
+          icon_url: "https://i.imgur.com/dJb2tIq.png",
+          text: "©Toby#7938 2019"
+        },
     description: Str,
     image:{url: Url}
   }});
