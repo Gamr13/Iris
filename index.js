@@ -11,6 +11,9 @@ const readdir = promisify(require("fs").readdir);
 const Enmap = require("enmap");
 const klaw = require("klaw");
 const path = require("path");
+const Discord = require("discord.js");
+const moment = require('moment');
+
 
 
 class GuideBot extends Client {
@@ -240,4 +243,35 @@ process.on("uncaughtException", (err) => {
 });
 process.on("unhandledRejection", err => {
   console.error("Uncaught Promise Error: ", err);
+});
+
+//Welcomer
+client.on("guildMemberAdd", (member) => { // Check out previous chapter for information about this event
+let guild = member.guild; 
+let memberTag = member.user.tag; 
+if(guild.systemChannel){
+	guild.systemChannel.send(new Discord.RichEmbed() // Creating instance of Discord.RichEmbed
+	.setTitle("Say hello to the new member!") // Calling method setTitle on constructor. 
+	.setDescription(memberTag + " has joined the server!") // Setting embed description
+  .setColor(`RANDOM`)
+	.setThumbnail(member.user.displayAvatarURL) // The image on the top right; method requires an url, not a path to file!
+	.addField("Members now", member.guild.memberCount) // Adds a field; First parameter is the title and the second is the value.
+  .setTimestamp() // Sets a timestamp at the end of the embed
+	);
+}
+});
+
+client.on("guildMemberRemove", (member) => { // Check out previous chapter for information about this event
+let guild = member.guild; 
+let memberTag = member.user.tag; 
+if(guild.systemChannel){
+	guild.systemChannel.send(new Discord.RichEmbed() // Creating instance of Discord.RichEmbed
+	.setTitle("Member left :c") // Calling method setTitle on constructor. 
+	.setDescription(memberTag + " has left the server.") // Setting embed description
+  .setColor(`RANDOM`)
+	.setThumbnail(member.user.displayAvatarURL) // The image on the top right; method requires an url, not a path to file!
+	.addField("Members now", member.guild.memberCount) // Adds a field; First parameter is the title and the second is the value.
+  .setTimestamp() // Sets a timestamp at the end of the embed
+	);
+}
 });
