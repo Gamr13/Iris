@@ -6,18 +6,15 @@ How to set Iris up:
 2) Open the config.json file
 3) Create a new bot on the Discord Developer Portal
 4) On line 6 (Bot Admins) Place the ID(s) of people you wish to be able to control the bots settings. 
-	Note: Remove the , 'ID HERE' if you only want one bot admin. Remove the line completely if you don't want any.
 5) Place your bot token on line 12 in the quotation marks.
 6) Open CMD or Terminal in the bots folder and run ->    node index
 
 Future features?
 In the future I plan on adding the following features:
    - Allow for multiple pings for the fun commands (i.e hug two people rather than one at a time)
-   - Create an NSFW enabled Google search feature
    - Add more fun games to play
    - Allow for mod log configuration
    - Allow for non-pings in fun commands (i.e !hug toby rather than !hug @toby)
    - Add more fun commands
-   - NSFW commands (to allow you to have intercourse with another member)
-   - Allow for the bot to send local images rather than having to use imgur links
+   - Allow for the bot to send images from the server rather than having to use imgur links -- optimisation.
         
