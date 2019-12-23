@@ -20,5 +20,6 @@ In the future I plan on adding the following features:
    
 ### If some deps are missing
    A. Blame Gamr13 for not including them in the package.json
+   
    B. Go through this [list](deps.txt)
         
