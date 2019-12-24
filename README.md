@@ -17,4 +17,9 @@ In the future I plan on adding the following features:
    - Allow for non-pings in fun commands (i.e !hug toby rather than !hug @toby)
    - Add more fun commands
    - Allow for the bot to send images from the server rather than having to use imgur links -- optimisation.
+   
+### If some deps are missing
+   A. Blame Gamr13 for not including them in the package.json
+   
+   B. Go through this [list](deps.txt)
         
